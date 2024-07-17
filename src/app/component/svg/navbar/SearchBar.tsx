@@ -3,8 +3,7 @@ import React from "react";
 const SearchBar = () => {
   return (
     <svg
-      class="icon-svg"
-      xmlns="http://www.w3.org/2000/svg"
+       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1000 1000"
       height="24"
       width="24"

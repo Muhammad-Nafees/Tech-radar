@@ -21,18 +21,23 @@ const Navbar = () => {
         <div className="w-11/12 flex justify-between items-center m-auto">
           <div className="flex items-center h-[100px]">
             <TechRadarLogo />
-            <p className="text-white ml-4 text-lg">the technology experts</p>
+            <p className="text-[#FFF] ml-2 text-lg mt-6">
+              the technology experts
+            </p>
           </div>
           <div className="flex space-x-4">
             <FacebookIcon />
             <TwitterIcon />
             <YoutubeIcon />
             <FlibBoard />
-            <p className="border-dashed border-b text-white">RSS</p>
+            <p className="border-dashed border-b text-white text-[13px]">RSS</p>
             <div className="cursor-pointer">
               <SearchBar />
             </div>
           </div>
+
+
+
         </div>
       </div>
     </>
