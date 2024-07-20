@@ -1,7 +1,7 @@
-// "use client";
+"use client";
 // libraries imports
 import ReactFlagsSelect from "react-flags-select";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // components imports
 import TechRadarLogo from "../svg/navbar/TechRadarLogo";
 import FacebookIcon from "../svg/navbar/FacebookIcon";
@@ -11,9 +11,9 @@ import FlibBoard from "../svg/navbar/FlibBoard";
 import SearchBar from "../svg/navbar/SearchBar";
 
 const Navbar = () => {
-  //   const [selected, setSelected] = useState<string>("");
-  //   console.log("🚀 ~ Navbar ~ selected:", selected);
   const [size, setSize] = useState<number | null>(null);
+
+  //   console.log("🚀 ~ Navbar ~ result:", result);
 
   return (
     <>
@@ -35,20 +35,14 @@ const Navbar = () => {
               <SearchBar />
             </div>
           </div>
-
-
-
         </div>
       </div>
     </>
   );
 };
-export default Navbar;
+  console.log("🚀 ~ Navbar ~ number:", number)
+  console.log("🚀 ~ Navbar ~ number:", number)
+  console.log("🚀 ~ Navbar ~ number:", number)
+  console.log("🚀 ~ Navbar ~ number:", number)
 
-{
-  /* <CountryFlag
-      /> */
-}
-{
-  /* setSize={setSize} */
-}
+export default Navbar;
